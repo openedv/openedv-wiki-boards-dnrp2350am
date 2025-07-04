@@ -162,7 +162,7 @@ https://docs.micropython.org/en/latest/library/machine.UART.html#machine-uart
 
 板载的USB转串口芯片的USB接口通过板载的USB UART端口引出，其原理图如下图所示：
 
-![01](./img/11.png)
+![01](./img/011.png)
 
 从以上原理图可以看出，TXD引脚和RXD引脚分别作为发送和接收引脚分别与USB转串口芯片的接收和发送引脚进行连接，USB转串口芯片再通过一对USB差分信号连接至USB UART的接口，这样一来，RP2350A就可以通过USB与PC上位机软件进行串口通信了。另外RP2350A有两个串口，即 uart0、uart1。
 
